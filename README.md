@@ -9,3 +9,6 @@ healthcheck.rs offers
 - healthcheck.rs/badge/{uptime,p99}/{http,https}/<YOURSITE>
 
 Will show uptime, p99 latency (for now). Later, add different regions.
+
+  
+ # Pitch: healthcheck.rs easily and freely monitors your service's uptime from a reliable third-party server.
