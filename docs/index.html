@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<!-- This is a work in progress! Will customize more later -->
+
+<body>
+    <section class="hero is-light">
+        <div class="hero-head">
+            <header class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item is-dark" href="https://deps.rs">
+                            <h1 class="title is-3">Healthcheck.rs</h1>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <img src="https://user-images.githubusercontent.com/5386772/137594938-e5bcaf58-79d7-4042-bfdf-1887d9b5e446.png"
+                    alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" height="150" width="200">
+                </p>
+                <p class="title is-1">Add uptime monitoring to your site in
+                    <em>less than a minute.</em>
+                </p>
+                <p>Healthcheck.rs regularly pings your site to make sure that it is available for your users. Check your
+                    site's analysis page to see your site's uptime over the past month, as well as its p99 latency
+                    response time.
+                    If something goes wrong with your site, we'll send you an email letting you know your service is
+                    unavailable.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h2 class="title is-3 has-text-centered">Quick Start</h2>
+                    <p>
+                        Enter your site's health check route, and we'll start monitoring its availability. We'll even
+                        give you this cool Markdown badge you can add to your Github, too!
+                    </p>
+
+                    <div class="field has-addons">
+                        <label class="label">Your Site</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Find a repository"
+                                value="https://rust-lang.org">
+                        </div>
+                        <div class="control">
+                            <a class="button is-info">
+                                Generate Badge
+                            </a>
+                        </div>
+                    </div>
+                    <img src="https://deps.rs/crate/rand_core/0.6.3/status.svg">
+                </div>
+                <div class="column">
+                    <h2 class="title is-3 has-text-centered">Community Sites</h2>
+                    <table class="table is-fullwidth is-striped is-hoverable">
+                        <thead>
+                            <tr>
+                                <th>Site</th>
+                                <th class="has-text-right">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://deps.rs/crate/rand/0.8.4">rust-lang.org</a></td>
+                                <td class="has-text-right"><img src="https://deps.rs/crate/rand/0.8.4/status.svg"></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://deps.rs/crate/syn/1.0.76">crates.io</a></td>
+                                <td class="has-text-right"><img src="https://deps.rs/crate/syn/1.0.76/status.svg"></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://deps.rs/crate/rand_core/0.6.3">docs.rs</a></td>
+                                <td class="has-text-right"><img src="https://deps.rs/crate/rand_core/0.6.3/status.svg">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://deps.rs/crate/libc/0.2.101">this-week-in-rust.org</a></td>
+                                <td class="has-text-right"><img src="https://deps.rs/crate/libc/0.2.101/status.svg">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://deps.rs/crate/quote/1.0.9">deps.rs</a></td>
+                                <td class="has-text-right"><img src="https://deps.rs/crate/quote/1.0.9/status.svg"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p><strong>Healthcheck.rs</strong> is a service for the Rust and web development community. It is open
+                    source on
+                    <a href="https://github.com/deps-rs/deps.rs">GitHub</a>.
+                </p>
+                <p>Developed with Rust and Bulma. Inspired by <a href="https://deps.rs">deps.rs</a>.</p>
+                <p>Please report any issues on the <a href="https://github.com/deps-rs/deps.rs/issues">issue
+                        tracker</a>.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
