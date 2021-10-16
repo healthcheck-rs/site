@@ -17,6 +17,8 @@
     <img src="https://img.shields.io/website-up-down-green-red/https/api.hermodapp.com/health_check" />
 </div>
 
+<img width="1640" alt="banner" src="https://user-images.githubusercontent.com/5386772/137595091-a784c66e-e648-4ea2-9b9c-3b74689b9395.png">
+
 # Project plan
 - healthcheck.rs = Actix + Maud, Bulma CSS, React JS, d3.js
 - engine = runs in background, pings sites
