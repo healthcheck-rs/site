@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/5386772/137594938-e5bcaf58-79d7-4042-bfdf-1887d9b5e446.png" width="30%"/>
   <h1>Healthcheck.rs</h1>
  <em>
-  Add uptime monitoring to your site in less than a minute.
+  Add uptime monitoring to your site with just one click.
  </em>
 </div>
 <br />
